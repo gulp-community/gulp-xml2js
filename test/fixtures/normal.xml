@@ -1,0 +1,10 @@
+<root>
+  <section>
+    <title>First</title>
+    <content>Data: buffer</content>
+  </section>
+  <section>
+    <title>Second</title>
+    <content>Data: string</content>
+  </section>
+</root>

@@ -1,0 +1,38 @@
+{
+  "name": "gulp-xml2js",
+  "description": "Convert xml files to js with gulp (gulpjs.com)",
+  "version": "0.0.1",
+  "homepage": "http://github.com/stevelacy/gulp-xml2js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevelacy/gulp-xml2js.git"
+  },
+  "author": "Steve Lacy me@slacy.me (slacy.me)",
+  "main": "./index.js",
+  "dependencies": {
+    "gulp-util": "~2.2.9",
+    "xml2js": "~0.4.1",
+    "map-stream": "~0.0.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "gulp-plugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/stevelacy/gulp-xml2js/raw/master/LICENSE"
+    }
+  ]
+}

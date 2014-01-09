@@ -1,0 +1,62 @@
+<root>
+  <section>
+    <title>Nested data</title>
+    <data>
+      <resources type="logs">/var/www/logs</resources>
+      <resources type="errors">/var/www/errors</resources>
+      <systems>
+        <infrastructure>
+          <data>null</data>
+        </infrastructure>
+      </systems>
+    </data>
+  </section>
+  <section>
+    <title>Nested data</title>
+    <data>
+      <resources type="logs">/var/www/logs</resources>
+      <resources type="errors">/var/www/errors</resources>
+      <systems>
+        <infrastructure>
+          <data>null</data>
+        </infrastructure>
+      </systems>
+    </data>
+  </section>
+  <section>
+    <title>Nested data</title>
+    <data>
+      <resources type="logs">/var/www/logs</resources>
+      <resources type="errors">/var/www/errors</resources>
+      <systems>
+        <infrastructure>
+          <data>null</data>
+        </infrastructure>
+      </systems>
+    </data>
+  </section>
+  <section>
+    <title>Nested data</title>
+    <data>
+      <resources type="logs">/var/www/logs</resources>
+      <resources type="errors">/var/www/errors</resources>
+      <systems>
+        <infrastructure>
+          <data>null</data>
+        </infrastructure>
+      </systems>
+    </data>
+  </section>
+  <section>
+    <title>Nested data</title>
+    <data>
+      <resources type="logs">/var/www/logs</resources>
+      <resources type="errors">/var/www/errors</resources>
+      <systems>
+        <infrastructure>
+          <data>null</data>
+        </infrastructure>
+      </systems>
+    </data>
+  </section>
+</root>
