@@ -32,7 +32,26 @@ npm install gulp-xml2js --save
 ##Example
 
 ```javascript
-EXAMPLEHERE
+
+var gulp = require('gulp');
+var gxml = require('gulp-xml2js');
+
+gulp.task('xml', function () {
+  gulp.src('./example.xml')
+    .pipe(gxml())
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('nested', function () {
+  gulp.src('./nested.xml')
+    .pipe(gxml())
+    .pipe(gulp.dest('./'));
+});
+
+gulp.task('default', function(){
+  gulp.run('xml');
+});
+
 ```
 
 ####You can view more examples in the [example folder.](https://github.com/stevelacy/gulp-xml2js/tree/master/examples)
