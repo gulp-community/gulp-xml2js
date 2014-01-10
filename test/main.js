@@ -24,7 +24,7 @@ describe('gulp-xml2js', function() {
     xml.write(fakeFile);
   });
 
-  it('should compile xml to javascript', function(done) {
+  it('should compile nested xml to javascript', function(done) {
    var xml = gxml();
     var fakeFile = new gutil.File({
       base: 'test/fixtures',
