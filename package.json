@@ -1,7 +1,7 @@
 {
   "name": "gulp-xml2js",
   "description": "Convert xml files to js with gulp (gulpjs.com)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/stevelacy/gulp-xml2js",
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
   },
   "keywords": [
     "gulp",
+    "xml",
+    "gulp-xml",
     "gulpplugin",
     "gulp-plugin"
   ],
