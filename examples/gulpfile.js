@@ -13,6 +13,4 @@ gulp.task('nested', function () {
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('default', function(){
-  gulp.run('xml');
-});
+gulp.task('default', ['xml']);
