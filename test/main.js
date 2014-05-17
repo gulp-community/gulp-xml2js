@@ -1,6 +1,6 @@
+var fs = require('fs');
 var should = require('should');
 var gutil = require('gulp-util');
-var fs = require('fs');
 var gxml = require('../');
 
 require('mocha');
