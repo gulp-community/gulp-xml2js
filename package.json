@@ -10,9 +10,9 @@
   "author": "Steve Lacy me@slacy.me (http://slacy.me)",
   "main": "./index.js",
   "dependencies": {
-    "xml2js": "~0.4.1",
-    "map-stream": "~0.1.0",
-    "replace-ext": "0.0.1"
+    "map-stream": "^0.1.0",
+    "replace-ext": "0.0.1",
+    "xml2js": "^0.4.4"
   },
   "devDependencies": {
     "gulp-util": "~2.2.12",
